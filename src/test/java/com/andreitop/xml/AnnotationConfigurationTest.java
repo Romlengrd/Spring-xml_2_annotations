@@ -85,6 +85,6 @@ public class AnnotationConfigurationTest {
 
     @Test
     public void testTrollColorCode() {
-        assertThat(troll.getColorCode(), allOf(greaterThan(1),lessThan(10)));
+        assertThat(troll.getColorCode(), allOf(greaterThan(0),lessThan(10)));
     }
 }
